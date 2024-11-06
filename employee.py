@@ -6,3 +6,6 @@ class Employee:
 
     def __repr__(self):
         return f"| {self.vardas} {self.pavarde} - {self.salary} |"
+
+    def __str__(self):
+        return self.__repr__()
