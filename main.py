@@ -1,3 +1,5 @@
-NAME = "Paulius"
+from employee import Employee
 
-print(f"Hello, {NAME}!")
+darb1 = Employee("Paulius", "Lapienis")
+
+print(f"Hello, {darb1}!")
