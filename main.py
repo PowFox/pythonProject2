@@ -2,4 +2,7 @@ from employee import Employee
 
 darb1 = Employee("Paulius", "Lapienis", 2000)
 
-print(f"Hello, {darb1}!")
+if input().strip() == "with hello":
+    print(f"Hello, {darb1}!")
+else:
+    print(darb1)
