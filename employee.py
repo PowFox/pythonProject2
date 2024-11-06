@@ -4,6 +4,9 @@ class Employee:
         self.pavarde = pavarde
         self.salary = salary
 
+    def get_fullname(self):
+        return f"{self.vardas} {self.pavarde}"
+
     def __repr__(self):
         return f"| {self.vardas} {self.pavarde} - {self.salary} |"
 
