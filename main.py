@@ -1,1 +1,3 @@
-print("hello world!")
+NAME = "Paulius"
+
+print(f"Hello, {NAME}!")
