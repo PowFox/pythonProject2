@@ -14,4 +14,5 @@ class Employee:
         return f"| {self.vardas} {self.pavarde} - {self.salary} |"
 
     def __str__(self):
+        """This is a simple change"""
         return self.__repr__()
