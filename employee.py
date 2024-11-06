@@ -4,9 +4,11 @@ class Employee:
         self.pavarde = pavarde
         self.salary = salary
 
-
     def calc_post_tax(self):
         return self.salary * 0.61
+
+    def get_fullname(self):
+        return f"{self.vardas} {self.pavarde}"
 
     def __repr__(self):
         return f"| {self.vardas} {self.pavarde} - {self.salary} |"
